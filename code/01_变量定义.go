@@ -1,4 +1,4 @@
-package main
+package main  // 定义文件所在包的名字，main包生成可执行文件。
 
 import "fmt"
 
@@ -14,6 +14,7 @@ import "fmt"
 	2. 多个变量定义
 */
 
+// main函数是main包下的特殊函数，代表可执行应用程序的入口。
 func main() {
 	// 1. 单个变量定义
 	name0 := "xiaoming"         // 方法0: 简洁语法
